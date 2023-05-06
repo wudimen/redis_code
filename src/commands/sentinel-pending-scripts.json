@@ -1,0 +1,15 @@
+{
+    "PENDING-SCRIPTS": {
+        "summary": "Returns information about pending scripts for Redis Sentinel.",
+        "group": "sentinel",
+        "since": "2.8.4",
+        "arity": 2,
+        "container": "SENTINEL",
+        "function": "sentinelCommand",
+        "command_flags": [
+            "ADMIN",
+            "SENTINEL",
+            "ONLY_SENTINEL"
+        ]
+    }
+}
